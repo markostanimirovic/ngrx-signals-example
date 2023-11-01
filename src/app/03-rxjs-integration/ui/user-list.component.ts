@@ -1,11 +1,11 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { User } from '../models/user.model';
+import { User } from '../user.model';
 
 @Component({
   selector: 'app-user-list',
   standalone: true,
   template: `
-    @if (loading) {
+    @if (isLoading) {
       <span>Loading...</span>
     }
 
@@ -19,5 +19,5 @@ import { User } from '../models/user.model';
 })
 export class UserListComponent {
   @Input() users: User[] = [];
-  @Input() loading = false;
+  @Input() isLoading = false;
 }

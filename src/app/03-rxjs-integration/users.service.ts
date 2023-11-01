@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { delay, Observable, of } from 'rxjs';
-import { User } from '../models/user.model';
+import { User } from './user.model';
 
 const usersMock: User[] = [
   { id: 1, firstName: 'John', lastName: 'Smith' },

@@ -19,12 +19,7 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": ["ES2022", "dom"],
-    "paths": {
-      "@ngrx/signals": ["./src/lib"],
-      "@ngrx/signals/entities": ["./src/lib/entities"],
-      "@ngrx/signals/rxjs-interop": ["./src/lib/rxjs-interop"]
-    }
+    "lib": ["ES2022", "dom"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

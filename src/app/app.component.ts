@@ -6,10 +6,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet, RouterLink],
   template: `
-    <a routerLink="/01">SignalState</a> |
-    <a routerLink="/02">SignalState + Service</a> |
-    <a routerLink="/03">SignalStore</a> |
-    <a routerLink="/04">SignalStore + Entities</a>
+    <a routerLink="/01">signalStore</a> |
+    <a routerLink="/02">signalStoreFeature</a> |
+    <a routerLink="/03">RxJS Integration</a>
 
     <router-outlet />
   `,
