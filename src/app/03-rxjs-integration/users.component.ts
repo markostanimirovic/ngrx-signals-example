@@ -8,7 +8,7 @@ import { UsersStore } from './users.store';
   standalone: true,
   imports: [SearchBoxComponent, UserListComponent],
   template: `
-    <h1>03 RxJS Integration</h1>
+    <h1>Users (RxJS Integration)</h1>
 
     <app-search-box
       [query]="store.query()"

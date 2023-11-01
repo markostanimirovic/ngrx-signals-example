@@ -5,7 +5,7 @@ import { CounterStore } from './counter.store';
   selector: 'app-counter2',
   standalone: true,
   template: `
-    <h1>02 signalStoreFeature</h1>
+    <h1>Counter (signalStoreFeature)</h1>
 
     <p>Count: {{ store.count() }}</p>
     <p>Double Count: {{ store.doubleCount() }}</p>
