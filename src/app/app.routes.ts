@@ -14,4 +14,8 @@ export const routes: Routes = [
     path: '03',
     loadComponent: () => import('./03-rxjs-integration/users.component'),
   },
+  {
+    path: '04',
+    loadComponent: () => import('./04-entities/todos.component'),
+  },
 ];
