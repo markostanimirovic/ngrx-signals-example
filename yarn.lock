@@ -1467,17 +1467,17 @@
   dependencies:
     call-bind "^1.0.2"
 
-"@ngrx/operators@^17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@ngrx/operators/-/operators-17.0.0.tgz#f53cf0a88e8f6f30d5c9eab3c95d8c65dcd5b486"
-  integrity sha512-CIGHuzX6vJOwSFuf0TNE6P5ddL4/Zp0fwFj3pguLE71tUZxcDGoaqVG2In3iEcl4n0UYvcAXt7Bp0fk0UkWvcw==
+"@ngrx/operators@^17.0.1":
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/operators/-/operators-17.0.1.tgz#4ae06fb95abad5c5adf654256d67876c59a51307"
+  integrity sha512-EgsmFzCx3LrOcHwHIJRLzIt8JrcoPwUxn4GX7A2CxkRaaw8uNsYSqxFmZZPZEbCvhte7AMXs93onKgWmkAoZaw==
   dependencies:
     tslib "^2.3.0"
 
-"@ngrx/signals@^17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@ngrx/signals/-/signals-17.0.0.tgz#4a0bb2163abb8048a29687e74adf4bca512bccc0"
-  integrity sha512-xUPcMfZjlfzZTcFFTKQO7d4duatkfTPHBva6PlwyWmCU2xqPrSdBmGLTR2+ehOh9cAVYu8ITrOiAizC4+PEu3Q==
+"@ngrx/signals@^17.0.1":
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/signals/-/signals-17.0.1.tgz#901fb51b21c1f3867db463000def811172cb57ee"
+  integrity sha512-YxnYoDlm0Q0Wighspwg3mgUqnOuIiGP3jvqcr1R/ZMIQ2e0IyzJR2QhtZ1etFxB6NhyDuGtG8FWU2+0cgc0w/w==
   dependencies:
     tslib "^2.3.0"
 
